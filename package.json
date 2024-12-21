@@ -1,32 +1,25 @@
 {
   "name": "vasundhara-website",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@radix-ui/react-slot": "^1.0.2",
-    "@radix-ui/react-tabs": "^1.0.4",
-    "class-variance-authority": "^0.6.0",
-    "clsx": "^1.2.1",
-    "express": "^4.17.1",
-    "lucide-react": "^0.244.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2",
-    "react-scripts": "^5.0.1",
-    "tailwind-merge": "^1.13.0",
-    "tailwindcss-animate": "^1.0.5"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "@shadcn/ui": "^0.0.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "^5.0.1",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
   },
   "browserslist": {
     "production": [
@@ -41,12 +34,13 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2"
-  },
-  "description": "This is the Vasundhara e-commerce website built with React.",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC"
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "customize-cra": "^1.0.0",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^3.4.17"
+  }
 }
